@@ -33,3 +33,9 @@ print(cleaned_rows, " Rows of Data Printed", "\n")
 
 print(cleaned)
 
+
+### Filter by DATE ###
+### Note: Not implementing at this time
+
+### cleaned['DATE'] = pd.to_datetime(cleaned['DATE'])
+### cleaned[cleaned['DATE'] < pd.Timestamp(date(2020,12,1))]
